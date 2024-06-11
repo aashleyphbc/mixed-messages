@@ -1,6 +1,6 @@
-const nouns = ['bird', 'sandwich', 'brick', 'couch', 'gorilla', 'car', 'airplane'];
-const verbs = ['run', 'fly', 'swim', 'walk', 'crawl', 'sashay'];
-const adjectives = ['wild', 'beautiful', 'crazy', 'giant', 'tiny', 'hideous'];
+const nouns = ['bird', 'sandwich', 'brick', 'couch', 'gorilla', 'car', 'airplane', 'dog', 'chicken', 'computer'];
+const verbs = ['run', 'fly', 'swim', 'walk', 'crawl', 'sashay', 'creep', 'wander'];
+const adjectives = ['wild', 'beautiful', 'crazy', 'giant', 'tiny', 'hideous', 'angry', 'horrible', 'elite', 'oversized'];
 
 const getRandomNumber = num => {
     return Math.floor(Math.random() * num);

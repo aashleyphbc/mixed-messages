@@ -7,17 +7,17 @@ const getRandomNumber = num => {
 }
 
 const getRandomNoun = () => {
-    let nounIndex = getRandomNumber(7);
+    let nounIndex = getRandomNumber(nouns.length);
     return nouns[nounIndex];
 }
 
 const getRandomVerb = () => {
-    let verbIndex = getRandomNumber(6);
+    let verbIndex = getRandomNumber(verbs.length);
     return verbs[verbIndex];
 }
 
 const getRandomAdjective = () => {
-    let adjectiveIndex = getRandomNumber(6);
+    let adjectiveIndex = getRandomNumber(adjectives.length);
     return adjectives[adjectiveIndex];
 }
 
